@@ -1,5 +1,5 @@
 
-import type { WorkExp, ProjectExp, Hoppys, Skills, EducationExp, MyInfo, Resume, ResumeInfo } from '../interface'
+import type { WorkExp, ProjectExp, EducationExp, MyInfo, Resume, ResumeInfo } from '../interface'
 function getHobby(hobby:string){
     return hobby
 }

@@ -1,16 +1,15 @@
 
 <script setup lang="ts">
-import BaseInfo from './components/BaseInfo.vue';
-import ModuleTitle from './components/ModuleTitle.vue'
+
 </script>
 <template>
   <header>
-<ModuleTitle/>
-<BaseInfo/>
+    <button> 跳转展示页 </button>
   </header>
 
   <main>
-
+    <ShowPage/>
+    <EditPage/>
   </main>
 </template>
 

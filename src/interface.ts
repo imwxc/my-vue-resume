@@ -22,14 +22,15 @@ export type MyInfo = {
     pic: string;
     nationality: string;
 }
-export type Hoppys = string[]
+export type Hobbys = string[]
 export type Skills = string[]
 export type EducationExp = string[]
 export type Resume = {
     myinfo: MyInfo,
     skills: Skills,
     educationExp:EducationExp,
-    workExp:WorkExp,
-    projectExp:ProjectExp,
-
+    workExps:WorkExp[],
+    projectExps:ProjectExp[],
+    hobbys: Hobbys,
 }
+export type ResumeInfo = {} & Resume
